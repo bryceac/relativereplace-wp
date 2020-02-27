@@ -4,6 +4,10 @@
 
 '''Author:''' Bryce Campbell
 
+'''Copyright:''' 2020
+
+'''License:''' See LICENSE
+
 '''Description:''' A plugin that allows user to use a short string to get the correct site address.
 
 ==Notes==
