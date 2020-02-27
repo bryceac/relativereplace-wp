@@ -1,2 +1,29 @@
-# relativereplace-wp
-Wordpress plugin that allow usage of '{{site}}' to get the correct blog address in links.
+=Relative Replace=
+
+'''Version:''' 0.1
+
+'''Author:''' Bryce Campbell
+
+'''Description:''' A plugin that allows user to use a short string to get the correct site address.
+
+==Notes==
+
+This plugin was created because I was annoyed with the fact that Wordpress was too heavily reliant on the URLs in the Wordpress database, making it so that I had to update records whenever my local Wordpress install got a different IP address.
+
+While that problem is not completely remedied by this plugin, as all it does is replaces any instances of the following:
+
+<pre>
+{{site}}
+</pre>
+
+with whatever address is listed in the <span class="fontweight:bold">Site Address</span> field in Wordpress settings, it should make things a little easier for those either changing servers or, like me, perform backups on a local copy of Wordpress.
+
+This plugin has been tested with Wordpress version 5.2.5. I do not know, nor can I guarantee it will work with anything release earlier or later than that.
+
+===Installation===
+
+To install this plugin, simply clone this repo or unzip it into the directory where plugins are stored (e.g. /Path/to/Wordpress/wp-content/plugins) and then activate it.
+
+===Support===
+
+While I would like to provide support for this plugin, I cannot do so, since I am very weak in the PHP language and this is my very first plugin, so you are on your own.
